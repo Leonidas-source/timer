@@ -8,7 +8,7 @@ if timer == 1:
         os.system("clear")
         print(str(a) + " seconds left")
         time.sleep(1)
-    os.system("brave https://www.youtube.com/watch?v=wNH3UVpYSSs&list=RDMM&index=24")
+    os.system("firefox")
 elif timer > 1:
     timer = timer - 1
     a = 60
@@ -33,4 +33,4 @@ elif timer > 1:
             os.system("clear")
             print(str(a) + " seconds left")
             time.sleep(1)
-        os.system("brave https://www.youtube.com/watch?v=wNH3UVpYSSs&list=RDMM&index=24")
+        os.system("firefox")
